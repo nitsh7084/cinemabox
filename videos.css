@@ -30,6 +30,10 @@ perspective:800px;
 width:100%;
 }
 .content_tabs{
+position:fixed;
+top:0px;
+left:0px;
+z-index:1000;
 width:100%;
 }
 .content_tab{
@@ -48,6 +52,7 @@ cursor:pointer;
 }
 .videos_content{
 padding:64px 44px;
+padding-top:124px;
 font-family:'BGLight';
 font-size:15px;
 clear:both;
@@ -305,15 +310,12 @@ width:100%;
 text-align:center;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:800px) and (min-width:640px){
 .container{
 
 }
 .content_tabs{
-position:fixed;
-top:0px;
-left:0px;
-z-index:1000;
+
 }
 .content_tab:not(.selected){
 border:none;
@@ -337,4 +339,114 @@ margin-top:35%;
 .videos_content{
 padding:0% 1%;
 }
+.top_container{
+font-size:15px;
 }
+.top_back_link{
+right:10%;
+padding:3% 4%;
+}
+.left_content_container, .right_content_container{
+float:none;
+width:100%;
+}
+.left_content_image_container{
+
+}
+.left_content_image_container img{
+
+}
+.video_order_button{
+width:70%;
+font-size:13px;
+margin-left:7%;
+}
+.movie_content_container{
+margin:3% 0%;
+width:100%;
+}
+.payment_list li{
+
+}
+.payment_list li{
+font-size:12px;
+}
+.start_head ul li label{
+font-size:13px;
+height:32px;
+line-height:32px;
+overflow:hidden;
+}
+}
+
+
+
+@media screen and (max-width:480px){
+.container{
+
+}
+.content_tabs{
+
+}
+.content_tab:not(.selected){
+border:none;
+width:31%;
+background:#fff;
+border-bottom:1px solid rgba(0,0,0,.08);
+}
+.video_container{
+-webkit-transform:translateZ(0px);
+-moz-transform:translateZ(0px);
+-ms-transform:translateZ(0px);
+-o-transform:translateZ(0px);
+opacity:0;
+height:180px;
+margin-left:16px;
+margin-bottom:0px;
+}
+.video_container:first-child{
+margin-top:35%;
+}
+.videos_content{
+padding:0% 1%;
+}
+.top_container{
+font-size:15px;
+}
+.top_back_link{
+right:10%;
+padding:3% 4%;
+}
+.left_content_container, .right_content_container{
+float:none;
+width:100%;
+}
+.left_content_image_container{
+
+}
+.left_content_image_container img{
+
+}
+.video_order_button{
+width:70%;
+font-size:13px;
+margin-left:7%;
+}
+.movie_content_container{
+margin:3% 0%;
+width:100%;
+}
+.payment_list li{
+
+}
+.payment_list li{
+font-size:12px;
+}
+.start_head ul li label{
+font-size:13px;
+height:32px;
+line-height:32px;
+overflow:hidden;
+}
+}
+
