@@ -2,7 +2,9 @@
 <html>
 <head>
 <title></title>
+<meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" href="videos.css" type="text/css" />
+<link rel="stylesheet" href="videos240360.css" media="screen and (max-device-width:480px) and (max-width:480px)" type="text/css" />
 </head>
 
 <body>
@@ -16,7 +18,7 @@
 <div class="content_tab english_tab" data-target="english">
 English
 </div>
-<div class="content_tab hindi_tab" data-target="hindi">
+<div class="content_tab hindi_tab selected" data-target="hindi">
 Hindi
 </div>
 <div class="content_tab regional_tab" data-target="regional">

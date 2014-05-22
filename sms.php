@@ -1,6 +1,7 @@
 <?php 
 
 $video = "";
+$video_name = "";
 
 if(isset($_GET['video'])){
 
@@ -49,6 +50,7 @@ Payment Options
 <div class="start_head_start">
 To start watching enter
 </div>
+<form action="video1.php?video=2states" method="post">
 <ul>
 <li>
 <label>Mobile Number</label>
@@ -62,6 +64,7 @@ To start watching enter
 <input type="submit" name="list_submit" class="list_submit" value="Submit" />
 </li>
 </ul>
+</form>
 </div>
 </div>
 
