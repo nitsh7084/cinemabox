@@ -50,7 +50,7 @@ Payment Options
 <div class="start_head_start">
 To start watching enter
 </div>
-<form action="video1.php?video=2states" method="post">
+<form action="video1.php?video=2 states" method="post">
 <ul>
 <li>
 <label>Mobile Number</label>
