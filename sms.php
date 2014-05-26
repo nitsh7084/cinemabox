@@ -40,7 +40,7 @@ Payment Options
 
 <div class="payment_list_container">
 <ol class="payment_list">
-<li>Pay Rs.50 in cash</li>
+<li>Pay Rs.100 in cash</li>
 <li>SMS "watch 1" to XXX and Rs.50 will be charged through your mobile operator</li>
 </ol>
 </div>
